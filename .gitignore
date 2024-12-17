@@ -1,0 +1,42 @@
+# ---- 通用规则 ----
+
+# 忽略所有 node_modules
+node_modules/
+
+# 忽略 pnpm 缓存目录
+.pnpm/
+
+# 忽略锁定文件（可选，如果要版本管理 lockfile 请注释掉）
+pnpm-lock.yaml
+
+# 日志文件
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 编译输出目录
+dist/
+dist-ssr/
+build/
+public/
+
+# 忽略环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 临时文件
+*.local
+.DS_Store
+
+# ---- 编辑器相关文件 ----
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
